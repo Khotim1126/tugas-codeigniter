@@ -1,67 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend('layout/page_layout') ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="<?= base_url() ?>">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('about') ?>">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('faqs') ?>">Faqs</a>
-                    </li>
-                </ul>
-            </div>
+<?= $this->section('content') ?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h5 class="h5">Geografi Semarang</h5>
+            <p>Kota Semarang adalah salah satu kota penting yang terletak di pesisir utara Jawa dan sebagai hub utama penghubung Jakarta–Surabaya dan kota–kota di pedalaman selatan Jawa (Surakarta dan Yogyakarta). Kota Semarang memiliki ketinggian dari 2 meter bawah permukaan laut hingga 340 meter di atas permukaan laut dengan kemiringan lereng 0%–45%. Kota Semarang merupakan kota yang memiliki kondisi topografi yang unik berupa wilayah dataran rendah yang sempit dan wilayah perbukitan yang memanjang dari sisi barat hingga sisi timur Kota Semarang. Wilayah dataran rendah di Kota Semarang sangat sempit.</p>
+            <p>Wilayah dataran rendah pada wilayah barat Kota Semarang hanya memiliki lebar 4 kilometer dari garis pantai, sedangkan pada wilayah timur Kota Semarang wilayah dataran rendah semakin melebar hingga 11 kilometer dari garis pantai. Wilayah dataran rendah ini merupakan dataran banjir dari sungai-sungai besar yang mengalir di Kota Semarang, seperti Kali Garang (Banjir Kanal Barat), Kali Pengkol, dan Kali Bringin. Wilayah dataran rendah ini membentang di sisi utara Kota Semarang dan hampir mencakup 40% total wilayah Kota Semarang. Wilayah dataran rendah ini dikenal sebagai kota bawah (Semarang Ngisor), sekaligus sebagai pusat aktivitas perekonomian kota. Dengan kondisi demikian, wilayah kota bawah sering kali dilanda banjir tahunan dan puncaknya ketika musim penghujan. Sejumlah wilayah khususnya Semarang Utara, banjir ini kadang juga disebabkan luapan air pasang laut (banjir rob). Wilayah perbukitan di Kota Semarang ini membentang di sisi selatan. Perbukitan ini merupakan bagian dari rangkaian formasi pegunungan utara Jawa yang membentang dari Banten hingga Jawa Timur. Wilayah perbukitan di Kota Semarang dikenal sebagai kota atas (Semarang Dhuwur). Wilayah perbukitan ini juga merupakan kawasan hulu dari sungai-sungai besar yang mengalir di Kota Semarang. Wilayah kota atas juga bagian dari bentang kaki gunung api Ungaran, yang terletak pada sisi selatan Kota Semarang.</p>
+            <p>Kota bawah ini meliputi Kecamatan Tugu, Semarang Barat, Semarang Tengah, Semarang Selatan, Semarang Timur, Gayamsari, Pedurungan, Genuk, dan Semarang Utara. Kota bawah ini merupakan kawasan pusat kota dan jantung perekonomian Semarang. Kota bawah juga berperan sebagai downtown, antara lain untuk pusat hiburan, perdagangan, pelayanan publik, dan pemerintahan. Kondisi topografi kota bawah yang mendukung, mendorong pertumbuhan ekonomi sangat cepat dan timbul perluasan wilayah perkotaan. Kota atas ini meliputi Kecamatan Gajahmungkur, Candisari, Banyumanik, Tembalang, Gunung Pati, Ngaliyan dan Mijen. Kini, wilayah kota atas merupakan pusat pertumbuhan baru di Kota Semarang. Salah satu sektor wilayah yang memiliki pertumbuhan yang spesifik terhadap differensiasi pusat aktivitas dan aglomerasi penduduk adalah sektor Banyumanik–Tembalang. Sarana prasara yang mendukung, sangat mendorong pertumbuhan dan minat investasi pada wilayah tersebut. Pertumbuhan pada wilayah ini ditandai dengan berkembangnya permukiman, munculnya pusat perekenomian baru, dan eksistensi gedung pencakar langit. Salah satu alasan wilayah ini berkembang juga merupakan hasil kebijakan Pemerintah Kota Semarang memindahkan UNDIP dari Pleburan ke Tembalang, sebagai upaya pemerataan penduduk di Kota Semarang. Strategi ini juga dilakukan pada pemindahan kampus UNNES dari Kelud Raya ke Gunung Pati.</p>
+            <p>Kota Semarang dialiri oleh beberapa sungai/kali, meliputi Sungai Garang (Kanal Barat), Sungai Semarang, Sungai Kanal Timur, Sungai Sringin, Sungai Plumbon, Sungai Karanganyar, Sungai Bringin, Sungai Cilandak, dan Sungai Siangker. Beberapa sungai ini difungsikan sebagai sistem drainase untuk pengendali banjir di Kota Semarang, meliputi Sungai Garang, Sungai Semarang, Sungai Kanal Timur, Sungai Plumbon, dan Sungai Bringin. Sistem hidro-drainase di Kota Semarang sudah mengenali sistem kanalisasi seperti kota-kota di Belanda. Sistem kanalisasi ini dilatarbelakangi oleh Pemerintah Hindia Belanda yang melakukan kanalisasi di Sungai Semarang dengan menyudet Sungai Semarang dengan Sungai Garang, untuk keperluan drainase banjir kota dan jalur lalu lintas kapal dagang. Sungai Semarang ini merupakan sungai yang mengalir ke wilayah pusat kota. Sungai Semarang mengalir dari kaki Bukit Bergota sisi barat–selatan Lawang Sewu–jalur inspeksi Batan Miroto–Pecinan–Kota Lama–Muara Baru. Pada tahun 1885, kanalisasi telah rampung dibangung oleh Pemerintah Hindia Belanda pada Sungai Garang (sisi barat kota). Sungai Garang ini merupakan Banjir Kanal Barat yang letaknya tepat di tengah wilayah Kota Semarang dan membagi Kota Semarang menjadi dua sisi, yaitu sisi barat dan sisi timur. Tahun 1895, Kanalisasi baru telah diselesaikan oleh Pemerintah Belanda sebagai upaya pencegahan banjir yang semakin parah di Kota Semarang kala itu, yaitu dengan membangun Banjir Kanal Timur. Pembangunan Banjir Kanal Timur ini dilakukan dengan menyudet Sungai Plumbon yang mengalir di wilayah timur Kota Semarang. Pembangunan kanalisasi di Kota Semarang merupakan pembangunan kanalisasi pertama di Indonesia. Keberhasilan kanalisasi Kota Semarang ini mendorong pembangunan kanalisasi di kota-kota lain, seperti Jakarta, Surabaya, dan Padang. Hingga kini, ketiga sungai kanal tersebut masih menjadi sorotan Pemerintah Kota Semarang untuk melakukan normalisasi dan pengerukan, agar drainase perkotaan dapat berfungsi sebagaimana mestinya.</p>
+            <p>Kota Semarang memiliki kemiripan karakteristik kondisi fisik dengan kota-kota di Belanda. Kemiripan ini berupa cekungan bawah laut, karena adanya depresi daratan sehingga membentuk ledokan yang tidak begitu luas. Depresi daratan ini disebabkan karena penurunan muka tanah dan land subsidence akibat eksploitasi airtanah berlebih. Jenis tanah aluvial juga berpengaruh dalam penurunan muka tanah di wilayah Kota Semarang. Adanya cekungan ini juga efek yang ditimbulkan karena aktivitas reklamasi pada pantai-pantai di Kota Semarang yang membentuk tanggul-tanggul laut. Beberapa wilayah di Kota Semarang, khususnya Semarang Utara memiliki ketinggian dibawah permukaan laut. Kondisi seperti ini memungkinkan timbulnya banjir cukup parah pada wilayah cekungan tersebut.</p>
+            <p>Kota Semarang memiliki garis pantai sepanjang 20 kilometer dengan tipologi pantai yang tidak beraturan. Pengaruh aktivitas manusia berperan dalam perubahan tipologi pantai, seperti aktivitas reklamasi dan sedimentasi oleh sungai. Salah satu kawasan reklamasi yang cukup dikenali oleh masyarakat Kota Semarang adalah Pantai Marina. Pertumbuhan Kota Semarang tidak lepas dari kondisi geografis Semarang yang merupakan wilayah pesisir dengan adanya pelabuhan. Pelabuhan menjadi cikal bakal pertumbuhan Kota Semarang hingga menjadi wilayah perkotaan saat ini. Bermula dari aktivitas perdagangan di pelabuhan menjadikan Kota Semarang merupakan wilayah strategis dalam pengembangan perekonomian dan kontribusi distribusi barang jasa sejak zaman pra-kolonialisme. Sungai-sungai yang mengalir di pusat kota dahulu merupakan kawasan pelabuhan. Salah satu sungai tersibuk sebagai jalur lalu lintas kapal dan perahu adalah sungai Semarang. Akibat sedimentasi sungai, sungai Semarang sudah tidak memungkinkan untuk jalur lalu lintas, kemudian pelabuhan direlokasi ke Muara Baru.</p>
         </div>
-    </nav>
-
-    <header class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="h1">About us</h1>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi unde cumque! Cum repellendus eveniet, illum id doloribus, quibusdam tenetur debitis est libero quasi assumenda voluptates aliquam tempore. Porro, asperiores.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi unde cumque! Cum repellendus eveniet, illum id doloribus, quibusdam tenetur debitis est libero quasi assumenda voluptates aliquam tempore. Porro, asperiores.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi unde cumque! Cum repellendus eveniet, illum id doloribus, quibusdam tenetur debitis est libero quasi assumenda voluptates aliquam tempore. Porro, asperiores.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi unde cumque! Cum repellendus eveniet, illum id doloribus, quibusdam tenetur debitis est libero quasi assumenda voluptates aliquam tempore. Porro, asperiores.</p>
-            </div>
+        <div class="col-md-12">
+        <h5 class="h5">Sejarah Semarang</h5>
+            <p>Sejarah Semarang berawal kurang lebih pada abad ke-6 M, yaitu daerah pesisir yang bernama Pragota (sekarang menjadi Bergota) dan merupakan bagian dari kerajaan Mataram Kuno. Daerah tersebut pada masa itu merupakan pelabuhan dan di depannya terdapat gugusan pulau-pulau kecil. Akibat pengendapan, yang hingga sekarang masih terus berlangsung, gugusan tersebut sekarang menyatu membentuk daratan.[8] Bagian kota Semarang Bawah yang dikenal sekarang ini dengan demikian dahulu merupakan laut. Pelabuhan tersebut diperkirakan berada di daerah Pasar Bulu sekarang dan memanjang masuk ke Pelabuhan Simongan, tempat armada Laksamana Cheng Ho bersandar pada tahun 1435 M. Di tempat pendaratannya, Laksamana Cheng Ho mendirikan kelenteng dan masjid yang sampai sekarang masih dikunjungi dan disebut Kelenteng Sam Po Kong (Gedung Batu).</p>
+            <p>Pada akhir abad ke-15 M ada seseorang ditempatkan oleh Kerajaan Demak, dikenal sebagai Pangeran Made Pandan (Sunan Pandanaran I), untuk menyebarkan agama Islam dari perbukitan Bergota. Dari waktu ke waktu daerah itu semakin subur, dari sela-sela kesuburan itu tumbuhlah pohon asam yang berjarak antara satu sama lain (jarang-jarang) (bahasa Jawa: asem arang), sehingga memberikan gelar atau nama daerah itu yang kemudian menjadi Semarang.</p>
+            <p>Sebagai pendiri desa, kemudian menjadi kepala daerah setempat, dengan gelar Kyai Ageng Pandan Arang I. Sepeninggalnya, pimpinan daerah dipegang oleh putranya yang bergelar Pandan Arang II (kelak disebut sebagai Sunan Bayat atau Sunan Pandanaran II atau Sunan Pandanaran Bayat atau Ki Ageng Pandanaran atau Sunan Pandanaran saja). Di bawah pimpinan Pandan Arang II, daerah Semarang semakin menunjukkan pertumbuhannya yang meningkat, sehingga menarik perhatian Sultan Hadiwijaya dari Kesultanan Pajang. Karena persyaratan peningkatan daerah dapat dipenuhi, diputuskan untuk menjadikan Semarang setingkat dengan Kabupaten. Pada tanggal 2 Mei 1547 bertepatan dengan peringatan Maulid Nabi Muhammad SAW, tanggal 12 Rabiul Awal tahun 954 H disahkan oleh Sultan Hadiwijaya setelah berkonsultasi dengan Sunan Kalijaga. Tanggal 2 Mei kemudian ditetapkan sebagai hari jadi kota Semarang. Seiring dengan jatuhnya Pajang ke tangan Kesultanan Mataram, wilayah Semarang masuk dalam wilayahnya.</p>
+            <p>Pada tanggal 15 Januari 1678 Amangkurat II dari Kesultanan Mataram di Kartasura, menggadaikan Semarang dan sekitarnya kepada VOC sebagai bagian pembayaran hutangnya.[10] Dia mengklaim daerah Priangan dan pajak dari pelabuhan pesisir sampai hutangnya lunas. Pada tahun 1705 akhirnya Susuhunan Pakubuwono I menyerahkan Semarang kepada VOC sebagai bagian dari perjanjiannya karena telah dibantu untuk merebut kembali Keraton Kartasura. Sejak saat itu Semarang resmi menjadi kota milik VOC dan kemudian Pemerintah Hindia Belanda.</p>
+            <p>Pada tahun 1906 dengan Stadblat Nomor 120 tahun 1906 dibentuklah pemerintah Gemeente. Pemerintah kota besar ini dikepalai oleh seorang Burgemeester (Wali kota). Sistem Pemerintahan ini dipegang oleh orang-orang Belanda berakhir pada tahun 1942 dengan datangnya pemerintahan pendudukan Jepang.</p>
+            <p>Pada masa Jepang terbentuklah pemerintah daerah Semarang yang dikepalai Militer (Shico (kanji: 市長 )) dari Jepang. Didampingi oleh dua orang wakil (Fuku Shico (kanji: 副市長)) yang masing-masing dari Jepang dan seorang bangsa Indonesia. Tidak lama sesudah kemerdekaan, yaitu tanggal 15 sampai 20 Oktober 1945 terjadilah peristiwa kepahlawanan pemuda-pemuda Semarang yang bertempur melawan balatentara Jepang yang bersikeras tidak bersedia menyerahkan diri kepada Pasukan Republik. Perjuangan ini dikenal sebagai Pertempuran Lima Hari.</p>
+            <p>Tahun 1946 Inggris atas nama Sekutu menyerahkan kota Semarang kepada pihak Belanda. Ini terjadi pada tanggal 16 Mei 1946. Tanggal 3 Juni 1946 dengan tipu muslihat, pihak Belanda menangkap Mr. Imam Sudjahri, wali kota Semarang sebelum proklamasi kemerdekaan. Selama masa pendudukan Belanda tidak ada pemerintahan daerah kota Semarang. Namun para pejuang di bidang pemerintahan tetap menjalankan pemerintahan di daerah pedalaman atau daerah pengungsian di luar kota sampai dengan bulan Desember 1948. daerah pengungsian berpindah-pindah mulai dari kota Purwodadi, Gubug, Kedungjati, Salatiga, dan akhirnya di Yogyakarta. Pimpinan pemerintahan berturut-turut dipegang oleh R. Patah, R. Prawotosudibyo dan Mr. Ichsan. Pemerintahan pendudukan Belanda yang dikenal dengan Recomba berusaha membentuk kembali pemerintahan Gemeente seperti pada masa kolonial dulu di bawah pimpinan R Slamet Tirtosubroto. Hal itu tidak berhasil, karena dalam masa pemulihan kedaulatan harus menyerahkan kepada Komandan KMKB Semarang pada bulan Februari 1950. tanggal I April 1950 Mayor Suhardi, Komandan KMKB. menyerahkan kepemimpinan pemerintah daerah Semarang kepada Mr Koesbiyono, seorang pegawai tinggi Kementerian Dalam Negeri di Yogyakarta. Ia menyusun kembali aparat pemerintahan guna memperlancar jalannya pemerintahan.</p>
         </div>
     </div>
-
-    <footer class="jumbotron jumbotron-fluid mt-5 mb-0">
-		<div class="container text-center">Copyright &copy <?= Date('Y') ?> CI News</div>
-	</footer>
-
-    <!-- Jquery dan Bootsrap JS -->
-    <script src="<?= base_url('js/jquery.min.js') ?>"></script>
-    <script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
-</body>
-
-</html>
+</div>
+<?= $this->endSection() ?>
